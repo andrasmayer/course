@@ -1,5 +1,6 @@
-import React from "react";
-
 export const Home = () => {
-  return <div>Home page</div>;
+  return (<div>
+    <div>Home page!</div>
+    <div>Tehát ez a főoldal</div>
+    </div>);
 };
