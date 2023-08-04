@@ -16,7 +16,7 @@ function Lesson_1() {
   const clickHandler = () =>{
     let tempValue = clickedValue + 1;
     let tempColor = "black;"
-    if(tempValue %2 === 0){ color="red";}
+    if(tempValue %2 === 0){ tempColor="red";}
     else{ tempColor = "black";  }
     setColor(tempColor)
     setClickedValue(tempValue);
