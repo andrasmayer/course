@@ -1,7 +1,5 @@
 const Child = (props)=>{
 
-    console.log(props.props);
-
     return (
     <div style={{border:"1px solid black"}}>
         <div>I am a {props.props.name} component.</div>
